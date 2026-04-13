@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas
+matplotlib
+soundfile
+librosa
+torch
+torchaudio
+tqdm
+PyYAML
+scikit-learn
+jiwer
+pronouncing
+nltk
+transformers
+sentencepiece
