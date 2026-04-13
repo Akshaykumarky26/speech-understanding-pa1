@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Model checkpoints
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.bin
+
+# Large generated outputs
+outputs/tts/*.wav
+outputs/tts/*.mp3
+outputs/adversarial/*.wav
+outputs/transcripts/*.json
+outputs/transcripts/*.txt
+outputs/figures/*.png
+outputs/figures/*.jpg
+
+# Final audio artifacts
+audio/output_LRL_cloned.wav
+
+# Temporary data
+data/interim/
+data/processed/
+
+# Report build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+implementation_note/*.aux
+implementation_note/*.log
+implementation_note/*.out
+implementation_note/*.toc
+implementation_note/*.synctex.gz
