@@ -103,3 +103,20 @@ Generated files:
 
 Note:
 The current timeline is generated using the initial CNN model trained on temporary annotation labels. Final inference will be repeated after manually verified LID segment annotations are added.
+
+cat >> report/report_notes.md <<'EOF'
+
+### 6. Baseline STT Transcription
+
+Implemented:
+- baseline Whisper transcription using Hugging Face Transformers
+- transcript output as TXT and JSON
+- 30-second chunking with overlap for long-form lecture audio
+
+Generated files:
+- outputs/transcripts/baseline_transcript.txt
+- outputs/transcripts/baseline_transcript.json
+
+Note:
+This is the baseline transcription before applying syllabus-aware N-gram biasing.
+EOF
