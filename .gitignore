@@ -66,3 +66,6 @@ implementation_note/*.synctex.gz
 
 # Raw full-length audio files
 data/raw/
+# Local assignment audio files
+audio/*.wav
+!audio/README.md
