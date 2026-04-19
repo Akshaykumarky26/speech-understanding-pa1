@@ -22,7 +22,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 
 def run_preprocessing():
     print("[1/10] Running preprocessing...")
-    # TODO: Call denoising and normalization pipeline
+    from src.preprocessing.preprocess import main as preprocess_main
+
+    preprocess_main()
 
 
 def run_lid():
