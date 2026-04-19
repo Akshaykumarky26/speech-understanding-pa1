@@ -1,0 +1,103 @@
+speech
+understanding
+signal
+audio
+waveform
+sampling
+quantization
+digitization
+spectrogram
+spectrum
+frequency
+amplitude
+phase
+fourier
+transform
+short time fourier transform
+stft
+filter bank
+mel filter bank
+mfcc
+cepstrum
+cepstral
+linear predictive coding
+lpc
+fundamental frequency
+pitch
+formant
+phoneme
+phonetics
+acoustic phonetics
+articulatory phonetics
+prosody
+intonation
+energy
+voicing
+unvoiced
+vowel
+consonant
+syllable
+language identification
+automatic speech recognition
+asr
+speech to text
+stt
+hidden markov model
+hmm
+gaussian mixture model
+gmm
+neural network
+deep learning
+transformer
+attention
+encoder
+decoder
+ctc
+connectionist temporal classification
+beam search
+decoding
+language model
+n gram
+bigram
+trigram
+stochastic
+probability
+likelihood
+posterior
+alignment
+dynamic time warping
+dtw
+speaker recognition
+speaker verification
+speaker embedding
+d vector
+x vector
+voice cloning
+text to speech
+tts
+vits
+wav2vec
+whisper
+denoising
+normalization
+noise
+reverberation
+classroom
+lecture
+code switching
+hinglish
+hindi
+english
+ipa
+international phonetic alphabet
+low resource language
+maithili
+translation
+anti spoofing
+spoof detection
+equal error rate
+eer
+adversarial
+fgsm
+perturbation
+snr
