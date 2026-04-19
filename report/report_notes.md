@@ -72,3 +72,19 @@ Generated files:
 
 Note:
 The current LID labels are based on a temporary annotation manifest. Final LID results will be obtained after replacing the template labels with real manually verified Hindi-English segment annotations.
+
+### 5. LID Inference Timeline
+
+Implemented:
+- sliding-window LID inference over the full 10-minute lecture
+- 1-second analysis window with 0.5-second hop
+- timestamp-level Hindi/English prediction
+- confidence score for each prediction
+- timeline CSV and plot generation
+
+Generated files:
+- outputs/transcripts/lid_timeline.csv
+- report/figures/lid_timeline.png
+
+Note:
+The current timeline is generated using the initial CNN model trained on temporary annotation labels. Final inference will be repeated after manually verified LID segment annotations are added.
