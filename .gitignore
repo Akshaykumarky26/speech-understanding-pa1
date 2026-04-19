@@ -69,3 +69,6 @@ data/raw/
 # Local assignment audio files
 audio/*.wav
 !audio/README.md
+
+# Keep syllabus-based N-gram LM artifact
+!outputs/transcripts/ngram_lm.json
