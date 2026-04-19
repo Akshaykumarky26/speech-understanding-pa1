@@ -120,3 +120,23 @@ Generated files:
 Note:
 This is the baseline transcription before applying syllabus-aware N-gram biasing.
 EOF
+
+cat >> report/report_notes.md <<'EOF'
+
+### 7. Constrained STT Decoding with N-gram Logit Biasing
+
+Implemented:
+- syllabus-based technical term vocabulary
+- unigram, bigram, and trigram language model artifact
+- custom Whisper logits processor
+- token-level technical term biasing during generation
+- biased transcript generation in chunked mode
+
+Generated local files:
+- outputs/transcripts/ngram_lm.json
+- outputs/transcripts/biased_transcript.txt
+- outputs/transcripts/biased_transcript.json
+
+Design note:
+The N-gram bias is applied during decoding by increasing the logits of tokens that continue syllabus-relevant technical terms. This makes the method closer to constrained decoding than simple transcript post-processing.
+EOF
