@@ -54,3 +54,21 @@ A spectral subtraction baseline was selected because it is deterministic, explai
 - TTS synthesis
 - Anti-spoofing classifier
 - Adversarial FGSM robustness
+
+### 4. Initial LID Training and Evaluation
+Implemented:
+- log-mel feature extraction
+- CNN-based Hindi-English LID model
+- training loop with validation accuracy and macro F1
+- confusion matrix generation
+- classification report generation
+
+Generated files:
+- lid_training_curve.png
+- lid_training_metrics.csv
+- lid_confusion_matrix.png
+- lid_confusion_matrix.csv
+- lid_classification_report.csv
+
+Note:
+The current LID labels are based on a temporary annotation manifest. Final LID results will be obtained after replacing the template labels with real manually verified Hindi-English segment annotations.
