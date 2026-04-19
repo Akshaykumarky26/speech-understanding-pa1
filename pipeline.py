@@ -29,7 +29,9 @@ def run_preprocessing():
 
 def run_lid():
     print("[2/10] Running frame-level language identification...")
-    # TODO: Call LID training/inference pipeline
+    from src.lid.infer import main as lid_infer_main
+
+    lid_infer_main()
 
 
 def run_stt():
