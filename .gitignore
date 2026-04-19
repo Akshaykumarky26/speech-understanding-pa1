@@ -63,3 +63,6 @@ implementation_note/*.log
 implementation_note/*.out
 implementation_note/*.toc
 implementation_note/*.synctex.gz
+
+# Raw full-length audio files
+data/raw/
