@@ -15,8 +15,8 @@ The student voice reference is only normalized to preserve speaker identity.
 
 from pathlib import Path
 
-from denoise import denoise_file
-from normalize import normalize_file
+from src.preprocessing.denoise import denoise_file
+from src.preprocessing.normalize import normalize_file
 
 
 RAW_LECTURE = Path("audio/original_segment.wav")
