@@ -1,0 +1,5 @@
+audio_path,start_sec,end_sec,language
+audio/original_segment.wav,0,10,english
+audio/original_segment.wav,10,20,hindi
+audio/original_segment.wav,20,30,english
+audio/original_segment.wav,30,40,hindi
